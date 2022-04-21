@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.carousel-inner div img{
+    max-height: 600px;
+    
+}
+.nosotros{
+    margin-top: 50px;
+}
+.nosotros div .col h2{
+    text-align: center;
+}
+.nosotros div .col p{
+margin: 100px;
+text-align: left;
+}
+.nosotros div img{
+max-height: 350px;
+}
+
+.tarjetas{
+    display: grid;
+    justify-content: center;
+    gap: 80px;
+    grid-template-areas: 
+    "primero segundo tercero"
+    ;
+}
+.primero{
+    grid-area: primero;
+}
+.segundo{
+    grid-area: segundo;
+}
+.tercero{
+    grid-area: tercero;
+}

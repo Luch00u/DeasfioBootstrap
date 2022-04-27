@@ -2,38 +2,23 @@
     padding: 0;
     margin: 0;
 }
-.carousel-inner div img{
-    max-height: 600px;
-    
+.header{
+    background-color: rgb(65, 62, 62);
 }
-.nosotros{
-    margin-top: 50px;
-}
-.nosotros div .col h2{
-    text-align: center;
-}
-.nosotros div .col p{
-margin: 100px;
-text-align: left;
-}
-.nosotros div img{
-max-height: 350px;
+.container-fluid header{
+background-color: rgba(89, 84, 84, 0.588);
 }
 
-.tarjetas{
-    display: grid;
-    justify-content: center;
-    gap: 80px;
-    grid-template-areas: 
-    "primero segundo tercero"
-    ;
+.nav-item:hover{
+    background-color: rgba(159, 154, 154, 0.276);
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
-.primero{
-    grid-area: primero;
+.carousel-item{
+    height: 65vh;
 }
-.segundo{
-    grid-area: segundo;
-}
-.tercero{
-    grid-area: tercero;
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
 }
